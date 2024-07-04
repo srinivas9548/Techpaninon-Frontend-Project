@@ -1,3 +1,6 @@
+### Published Link:
+https://techpaninon-frontend-project.onrender.com
+
 ### Frontend: React.js
 
 1. **Project Setup:**

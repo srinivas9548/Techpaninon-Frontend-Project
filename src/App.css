@@ -1,0 +1,15 @@
+.app-container {
+  border: 1px solid red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-form-container {
+  display: flex;
+  height: 93vh;
+}
+
+.footer-image {
+  height: 7vh;
+}

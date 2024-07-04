@@ -1,0 +1,199 @@
+.form-page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.tabs-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.invoice-alternate-line-item-container {
+    overflow-y: auto;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.invoice-amount-details-container {
+    background-color: #e0e0e0;
+    width: 100%;
+}
+
+.invoice-amount-header {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.invoice-text-header {
+    font-family: Arial, sans-serif;
+    color: #48049a;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.invoice-list-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+    /* border: 1px solid blue; */
+    height: 44px;
+}
+
+.label-content {
+    display: flex;
+    align-items: center;
+    width: 48%;
+}
+
+.label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.star {
+    color: red;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.value {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-box {
+    padding: 5px;
+    outline: none;
+    border-radius: 2px solid #eee;
+    width: 50%;
+}
+
+.radio-label-container {
+    display: flex;
+    align-items: center;
+}
+
+.radio-element {
+    margin-right: 5px;
+}
+
+.label-element {
+    margin-right: 10px;
+}
+
+.alternate-payee-details-container {
+    background-color: #e0e0e0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.alternate-payee-header {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.alternate-text-header {
+    font-family: Arial, sans-serif;
+    color: #48049a;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.alternate-list-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.line-item-details-container {
+    background-color: #e0e0e0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.line-item-header {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.line-item-text-header {
+    font-family: Arial, sans-serif;
+    color: #48049a;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.line-item-content-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.line-item-row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #48049a;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.line-header-text {
+    color: #000000;
+}

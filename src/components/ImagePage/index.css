@@ -1,0 +1,9 @@
+.image-page-container {
+    height: 100vh;
+    width: 50vw;
+    overflow-y: scroll;
+}
+
+.template-image {
+    width: 100%;
+}
